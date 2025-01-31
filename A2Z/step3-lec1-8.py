@@ -6,3 +6,4 @@ class Solution:
             if i == k:
                 return True
         return False
+    #hurry
