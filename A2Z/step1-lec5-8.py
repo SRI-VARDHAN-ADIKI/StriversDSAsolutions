@@ -3,7 +3,7 @@ class Solution:
         s = s.lower()
         x = ""
         for i in s:
-            if ord(i) <= 122 and ord(i) >= 97:
+            if ord(i) < 123 and ord(i) >= 97:
                 x += i
         if x == x[::-1]:
             return True
